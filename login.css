@@ -1,0 +1,88 @@
+body{
+    background-image: url('images/natures-beauty-reflected-tranquil-mountain-waters-generative-ai.jpg');
+ background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.a{
+    border: 2px solid cornflowerblue;
+    height: 420px;
+    width: 300px;
+    margin-left: 550px;
+    margin-top: 200px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 255);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    
+    
+   
+}
+
+#l{
+    margin-left: 80px;
+    color: white;
+    opacity: .7;
+}
+
+#u{
+    background-color: transparent;
+    
+   
+    border-radius: 30px;
+    height: 30px;
+    width: 270px;
+    opacity: .7;
+}
+
+
+#p{
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 30px;
+    width: 270px;
+    opacity: .7;
+}
+#lb{
+    margin-top: 40px;
+    border-radius: 30px;
+    height: 35px;
+    /* padding-top: 50px; */
+    width: 270px;
+    background-color: transparent;
+    color: white;
+   
+    
+    
+}
+
+#rme {
+    display: flex; /* Use a flex container to control the positioning */
+    align-items: center; /* Vertically center the checkbox and label */
+    margin-top: 20px; /* Adjust the top margin to move it down */
+    color: aliceblue;
+    opacity: .7;
+    
+}
+
+#rme input[type="checkbox"] {
+    margin-right: 5px; /* Add some space between the checkbox and the label text */
+   
+}
+
+
+#u::placeholder{
+    color: aliceblue;
+}
+#p::placeholder{
+    color: aliceblue;
+}
+
+
+
+
